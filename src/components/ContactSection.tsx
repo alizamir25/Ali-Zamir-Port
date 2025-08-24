@@ -62,7 +62,7 @@ const ContactSection = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', link: 'https://github.com/alizamir25?tab=repositories', color: 'hover:text-gray-300' },
+    { icon: Github, label: 'GitHub', link: 'https://github.com/alizamir25', color: 'hover:text-gray-300' },
     { icon: Linkedin, label: 'LinkedIn', link: 'https://www.linkedin.com/in/ali-zamir', color: 'hover:text-blue-400' },
     { icon: Twitter, label: 'Twitter', link: 'https://twitter.com', color: 'hover:text-sky-400' }
   ];

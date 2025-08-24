@@ -5,6 +5,7 @@ import { componentTagger } from "-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/Ali-Zamir-Port/' : '/',
   server: {
     host: "::",
     port: 8080,
